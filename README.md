@@ -17,3 +17,5 @@ Pour lancer la partie frontend : cd frontend / npm i / npm start
 Difficulté dans le composant -> components/Chart/RadarChart/RadarChart.jsx
 
 5/ Lien d'outil de gestion
+
+https://www.notion.so/9a51d376dd5641c7bbbb9ae88c0386f6?v=55f649eee4464fa692dfaf42311e9d7c
