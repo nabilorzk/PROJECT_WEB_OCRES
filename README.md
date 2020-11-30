@@ -1,23 +1,19 @@
-# Projet de fin de semestre
+1/ Membres du groupe
 
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
+OUAREZKI Nabil
+POTIER Louis
 
-<p align="center">
- <a href="https://gitlab.com/Adrien_Kourganoff/instructions_web_ocres_ing4/-/blob/master/README.md">Règles pour le semestre</a>
-</p>
+2/ Description du projet
 
-## Introduction
+Pour notre projet, nous avons voulu créer une sorte de dashboard officiel de l'école ECE Paris qui en ces temps de pandémie permettraient de faciliter la gestion des différents élèves de l'école. Nous avons donc mis différentz widgetz en place : - 1 : moyenne semetre - 2 : moyenne par matière - 3 : total heure par moyenne - 4 : absences - 5 : salles disponibles - 6 : rappel Covid-19
 
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
+3/ Comment lancer le projet
 
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
+Pour lancer la partie backend : cd backend / npm i / npm start
+Pour lancer la partie frontend : cd frontend / npm i / npm start
 
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
+4/ Difficulté
 
-## Instructions
+Difficulté dans le composant -> components/Chart/RadarChart/RadarChart.jsx
 
-Les instructions sont à retrouver dans le pdf instruction.pdf.
-
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
-
-Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
+5/ Lien d'outil de gestion
