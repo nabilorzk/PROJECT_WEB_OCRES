@@ -18,7 +18,6 @@ const RadarChart = () => {
   //   console.log(data);
   // });
 
-  // console.log("ouhoooooooÒ", dataCharts[0].ba);
 
   dataCharts.map((item, i) => {
     return console.log(item);
@@ -85,7 +84,7 @@ const RadarChart = () => {
         datasets: [
           {
             label: dataCharts.map(({ label }) => label),
-            data: dataCharts.map(({ data }) => data),
+            data: [20, 50, 90, 25, 40, 65],
             backgroundColor: dataCharts.map(
               ({ backgroundColor }) => backgroundColor
             ),
