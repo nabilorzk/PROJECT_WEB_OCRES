@@ -18,6 +18,7 @@ const RadarChart = () => {
   //   console.log(data);
   // });
 
+  // console.log("ouhoooooooÒ", dataCharts[0].ba);
 
   // dataCharts.map((item, i) => {
   //   return console.log(item);
@@ -68,7 +69,7 @@ const RadarChart = () => {
   //   ></Radar>
   // ) : null;
 
-  // // t,
+  // // data: [20, 50, 90, 25, 40, 65],
 
   return (
     <Radar
@@ -83,23 +84,21 @@ const RadarChart = () => {
         ],
         datasets: [
           {
-            label: 
-            ["Test", "Test", "Test", "Test", "Test"],
-            data: [20, 50, 90, 25, 40, 65],
+            label: "Total heure par matière",
+            data: [90, 40, 70, 60, 50, 80],
             backgroundColor: [
-              "rgba(255, 99, 132, 0.2)",
+              "rgba(1, 113, 121, 0.2);",
               "rgba(54, 162, 235, 0.2)",
               "rgba(255, 206, 86, 0.2)",
               "rgba(75, 192, 192, 0.2)",
-              "rgba(75, 192, 192, 0.2)",
-
+              "rgba(153, 19, 135, 0.2)",
+              "rgba(150, 148, 35, 0.2)",
             ],
-            
           },
         ],
       }}
     ></Radar>
-  )
+  );
 };
 
 export default RadarChart;
